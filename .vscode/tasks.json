@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "php",
+      "command": "php",
+      "args": ["${workspaceFolder}/src/artisan", "serve"],
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "presentation": {
+        "reveal": "never",
+        "panel": "new"
+      }
+    },
+    {
+      "label": "npm",
+      "type": "npm",
+      "script": "watch",
+      "path": "src",
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "presentation": {
+        "reveal": "never",
+        "panel": "new"
+      }
+    }
+  ]
+}
