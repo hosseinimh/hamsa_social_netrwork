@@ -7,6 +7,7 @@ composer install
 php artisan key:generate
 php artisan migrate
 php artisan code:init
+npm init
 npm run development
 php artisan serve
 ```
